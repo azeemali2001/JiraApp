@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Ticket Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <div class="navBar">
+        <div class="priorityAction">
+            <div class="color pink"></div>
+            <div class="color blue"></div>
+            <div class="color green"></div>
+            <div class="color black"></div>
+        </div>
+
+        <div class="action">
+            <div class="add"><i class="fa-solid fa-plus"></i></div>
+            <div class="remove"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+    </div>
+
+    <!-- Ticket Area -->
+    <div class="main-area"></div>
+
+    <!-- Modal Area -->
+    <div class="modal">
+        <textarea class="textarea" spellcheck="false"></textarea>
+
+        <div class="colorpallet">
+            <div class="Pcolor pink"></div>
+            <div class="Pcolor blue"></div>
+            <div class="Pcolor green"></div>
+            <div class="Pcolor black border"></div>
+        </div>
+    </div>
+
+    <script defer src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

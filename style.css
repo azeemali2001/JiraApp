@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navBar{
+    height: 5rem;
+    background-color: #4b4b4b;
+    display: flex;
+    align-items: center;
+}
+
+.navBar>*{
+    margin-left: 9rem;
+    border-radius: 0.7rem;
+}
+
+.priorityAction{
+    height: 3rem;
+    background-color: #3d3d3d;
+    width: 14rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color{
+    height: 1.75rem;
+    width: 2rem;
+    border-radius: 0.4rem;
+}
+
+.pink{
+    background-color: lightpink;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.black{
+    background-color: black;
+}
+
+.action {
+    height: 3rem;
+    width: 8rem;
+    background-color: #3d3d3d;
+
+    display: flex;
+
+
+}
+
+.action>*{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: #d1d8e0;
+}
+
+.action>*:hover{
+    background-color: #485460;
+    cursor: pointer;
+    border-radius: 0.7rem;
+}
+
+.modal {
+    height: 50vh;
+    width: 45vw;
+
+    background: lightblue;
+
+    position: absolute;
+    left: calc((100vw - 45vw)/2);
+    top: calc((100vh - 50vh)/2 );
+
+    display:none;
+}
+
+.textarea{
+    height: 100%;
+    width: 75%;
+    background-color: #dfe4ea;
+
+    padding: 2rem;
+    font-size: 1.7rem;
+
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.colorpallet{
+    height: 100%;
+    width: 25%;
+    background-color: #4b4b4b;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Pcolor{
+    height: 2.4rem;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.border {
+    border: 5px solid #d1d8e0;
+}
+.ticket-cont {
+    height: 13rem;
+    width: 16rem;
+    background-color: #f1f2f6;
+}
+
+.priority-color{
+    height: 1rem;
+}
+
+.key{
+    height: 2rem;
+    padding: 0.4rem;
+}
+
+.task{
+    height: calc(100% - 1rem - 2rem - 2rem);
+    padding: 0.4rem;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+.lock{
+    height: 2rem;
+
+    display: flex;
+    justify-content: flex-end;
+
+
+    
+
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    color: #a5b1c2;
+}
+
+.main-area{
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
